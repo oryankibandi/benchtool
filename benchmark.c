@@ -199,7 +199,7 @@ static uint64_t zipf_next(double zipf_exponent, double off, double imax)
     double tot_area = hupp - hlow;
 
     // Find next uint64 zipf value
-    uint accepted = 0;
+    int accepted = 0;
     double u, k, c_area;
 
     while (!accepted)
