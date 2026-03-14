@@ -107,6 +107,7 @@ The benchtool has default runners such as
 - `tidesdb_rocksdb_lmdb.sh` - three-way comparison (TidesDB vs RocksDB vs LMDB), configurable via `--engines`
 - `tidesdb_allocator_benchmark.sh` - allocator comparison suite (i.e `./tidesdb_allocator_benchmark.sh --preload --allocator all`)
 - `tidesdb_btree_comparison.sh` - B+tree vs block-based klog format comparison (default 10M keys, configurable via `-k`)
+- `tidesdb_rocksdb_larger_than_memory.sh` - comparison suite with larger than memory data
 
 ## Graphs
 
